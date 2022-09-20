@@ -2,14 +2,14 @@
 import './App.css';
 import {Disciplinas} from './pages/disciplinas'
 import { Horarios } from './pages/horarios';
-import { Calendar } from './componentes/calendar/calendar';
+import { Navigation } from './componentes/navbar/navbar';
 
 function App() {
   return (
     <>
-    <Calendar/>
+    <Navigation/>
+    <Disciplinas/>
     <Horarios/>
-   <Disciplinas/>
    </>
   );
 }
