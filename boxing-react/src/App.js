@@ -1,10 +1,10 @@
 
 import './App.css';
-import {PlanesPage} from './pages/planes'
+import {Disciplinas} from './pages/disciplinas'
 
 function App() {
   return (
-   <PlanesPage/>
+   <Disciplinas/>
   );
 }
 
