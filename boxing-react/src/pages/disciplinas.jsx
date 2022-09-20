@@ -5,11 +5,16 @@ import KickBoxing from "../img/kickboxing.jpg";
 import Fitness from "../img/fitness.jpg";
 
 export const Disciplinas = () => {
-  return(
-    <CardGroup className="mx-auto " border="dark" style={{ width: '80%'}} >
-      <CardComponent titulo="Plan basico" desc="horario" img={Boxeo} />
-      <CardComponent titulo="Plan intermedio" desc="horario" img={KickBoxing} />
-      <CardComponent titulo="Plan Power" desc="horario" img={Fitness} />
+  return (
+    <CardGroup className="mx-auto" border="dark" style={{ width: "80%" }}>
+      <CardComponent
+        titulo="Boxeo"
+        desc="Deporte de contacto basado en golpes de puño sobre la cintura.Alto trabajo aeróbico, combinado con coordinación y técnica."
+        img={Boxeo}
+      />
+      <CardComponent titulo="KickBoxing" desc="Disciplina catalogada como arte marcial, puedes progresar mediante sistema de grados o cinturones.Combinación de golpes de puño y patadas." img={KickBoxing} />
+      <CardComponent titulo="Fitness Training" desc="Trabajo físico GAP (glúteos, abdomen y piernas)  focalizado.
+HIT (High Intensity Training) entrenamiento de alta intensidad clave para mejorar el estado físico y ponerse en forma." img={Fitness} />
     </CardGroup>
-    );
+  );
 };
