@@ -1,0 +1,55 @@
+:root {
+    --primary: #4628ff;
+    --warning: #ffd028;
+    --danger: #eb3f27;
+    --success: #75fa83;
+    --dark: #000000;
+    --white: #ffffff;
+}
+
+.btn {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn--primary--solid {
+    background-color: var(--primary);
+    color: var(--dark);
+    border: none;
+}
+
+.btn--warning--solid {
+    background-color: var(--warning);
+    color: var(--dark);
+    border: none;
+}
+
+.btn--danger--solid {
+    background-color: var(--danger);
+    color: var(--white);
+    border: none;
+}
+
+.btn--success--solid {
+    background-color: var(--success);
+    color: var(--dark);
+    border: none;
+}
+
+.btn--medium {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn--small {
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
