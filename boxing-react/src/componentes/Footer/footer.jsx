@@ -4,7 +4,7 @@ import './footer.css';
 
 const Footer = () => {
     return(
-        <div className="main-footer">
+        <div className="main-footer text-center">
             <div className="container">
                 <div className="row">
                 {/*columna 1*/}
@@ -36,11 +36,12 @@ const Footer = () => {
                 </div>
                 </div>
                 <div className="row">
-                    <p className="col-sm"></p>
+                    <p className="col-sm text-center">
+                    &copy;Derechos Reservados
+                    </p>
                 </div>
             </div>
         </div>
     );
 }
-
 export default Footer;
