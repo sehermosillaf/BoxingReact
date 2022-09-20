@@ -1,11 +1,13 @@
 import React from "react";
 
 import './footer.css';
+import MapLocation from '../map/map'
 
 const Footer = () => {
     return(
         <div className="main-footer text-center">
             <div className="container">
+                <MapLocation/>
                 <div className="row">
                 {/*columna 1*/}
                     <div className="col">
