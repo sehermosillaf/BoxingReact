@@ -19,7 +19,7 @@ export const Boton = ({children, type, onClick, buttonStyle, buttonSize})  => {
     //children es lo que va dentro de la etiqueta boton
     return(
         <button
-            className={`btn ${checkbtnSize} ${checkbtnSize}`} 
+            className={`btn ${checkbtnStyle} ${checkbtnSize}`} 
             onClick={onClick} type={type}>
             {children}
         </button>

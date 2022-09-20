@@ -11,10 +11,22 @@ export const Disciplinas = () => {
         titulo="Boxeo"
         desc="Deporte de contacto basado en golpes de puño sobre la cintura.Alto trabajo aeróbico, combinado con coordinación y técnica."
         img={Boxeo}
+        linkText="Mas informacion"
       />
-      <CardComponent titulo="KickBoxing" desc="Disciplina catalogada como arte marcial, puedes progresar mediante sistema de grados o cinturones.Combinación de golpes de puño y patadas." img={KickBoxing} />
-      <CardComponent titulo="Fitness Training" desc="Trabajo físico GAP (glúteos, abdomen y piernas)  focalizado.
-HIT (High Intensity Training) entrenamiento de alta intensidad clave para mejorar el estado físico y ponerse en forma." img={Fitness} />
+
+      <CardComponent
+        titulo="KickBoxing"
+        desc="Disciplina catalogada como arte marcial, puedes progresar mediante sistema de grados o cinturones.Combinación de golpes de puño y patadas."
+        img={KickBoxing}
+        linkText="Mas informacion"
+      />
+      <CardComponent
+        titulo="Fitness Training"
+        desc="Trabajo físico GAP (glúteos, abdomen y piernas)  focalizado.
+HIT (High Intensity Training) entrenamiento de alta intensidad clave para mejorar el estado físico y ponerse en forma."
+        img={Fitness}
+        linkText="Mas informacion"
+      />
     </CardGroup>
   );
 };
