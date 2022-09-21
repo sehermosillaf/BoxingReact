@@ -1,25 +1,26 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { NavLink } from "react-router-dom";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 export const Navigation = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">React-Boxing</Navbar.Brand>
+        <Navbar.Brand to="/">React-Boxing</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="nav-link" to="/Disciplinas">
+            <NavLink className="nav-link" to="/Disciplinas">
               Disciplinas
-            </Nav.Link>
-            <Nav.Link className="nav-link" to="/Instructores">
+            </NavLink>
+            <NavLink className="nav-link" to="/Instructores">
               Instructores
-            </Nav.Link>
-            <Nav.Link className="nav-link" to="/">
+            </NavLink>
+            <NavLink className="nav-link" to="/">
               Disciplinas
-            </Nav.Link>
+            </NavLink>
             <NavDropdown
               to="/Horarios"
               title="Horarios"
@@ -32,10 +33,10 @@ export const Navigation = () => {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link className="nav-link" to="/Contacto">
+            <NavLink className="nav-link" to="/Contacto">
               Contacto
-            </Nav.Link>
-            <Nav.Link href="#">Iniciar Sesion</Nav.Link>
+            </NavLink>
+            <NavLink className="nav-link" to="/Login">Iniciar Sesion</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

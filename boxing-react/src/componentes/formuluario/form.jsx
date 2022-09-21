@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 
 export const FormularioLogin = () => {
     return (
-    <Form className='mx-5 col-sm-xx'>
+    <Form className='mx-auto mt-5 w-50' >
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Correo</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
