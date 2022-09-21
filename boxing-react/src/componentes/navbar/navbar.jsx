@@ -7,7 +7,7 @@ import NavbarBrand from "react-bootstrap/esm/NavbarBrand";
 
 export const Navigation = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar className="sticky-top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <NavbarBrand href="Inicio"> React-Boxing</NavbarBrand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -20,7 +20,7 @@ export const Navigation = () => {
               Instructores
             </NavLink>
             <NavLink className="nav-link">
-              Disciplinas
+              
             </NavLink>
             <NavDropdown
               to="/Horarios"

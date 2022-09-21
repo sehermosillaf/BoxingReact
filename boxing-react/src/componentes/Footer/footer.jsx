@@ -7,8 +7,9 @@ const Footer = () => {
     return(
         <div className="main-footer text-center">
             <div className="container">
-                <h4>Mapa</h4>
+                <div className="mt-5 pt-5">
                 <MapLocation/>
+                </div>
                 <div className="row">
                 {/*columna 1*/}
                     <div className="col">

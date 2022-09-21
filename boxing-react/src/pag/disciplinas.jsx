@@ -6,7 +6,7 @@ import Fitness from "../img/fitness.jpg";
 
 export const Disciplinas = () => {
   return (
-    <CardGroup className="mx-auto" border="dark" style={{ width: "80%" }}>
+    <CardGroup className="mx-auto mt-5" style={{ width: "80%" }}>
       <CardComponent
         titulo="Boxeo"
         desc="Deporte de contacto basado en golpes de puño sobre la cintura.Alto trabajo aeróbico, combinado con coordinación y técnica."
