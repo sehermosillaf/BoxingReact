@@ -1,7 +1,7 @@
 import React from "react";
 
 import './footer.css';
-import MapLocation from '../map/map'
+import MapLocation from '../mapa/map'
 
 const Footer = () => {
     return(
