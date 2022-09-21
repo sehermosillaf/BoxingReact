@@ -30,11 +30,13 @@ export const Navigation = () => {
               <NavDropdown.Item href="#">AM</NavDropdown.Item>
               <NavDropdown.Item href="#">PM</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#">Reservar clases</NavDropdown.Item>
+              <NavLink className="nav-link" to='/Reserva'>
+              <NavDropdown.Item>Reservar clases</NavDropdown.Item>
+              </NavLink>
             </NavDropdown>
           </Nav>
           <Nav>
-            <NavLink className="nav-link" to="/Contacto">
+            <NavLink className="nav-link" to='#'>
               Contacto
             </NavLink>
             <NavLink className="nav-link" to="/Login">Iniciar Sesion</NavLink>

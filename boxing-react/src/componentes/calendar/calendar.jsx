@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 export const Calendar = () => {
     const [date, setDate] = useState(new Date());
     return (
-        <div className="container-fluid" style={{ width: "10%" }}>
+        <div className="container-fluid" style={{ width: "20%" }}>
         <Form.Control
                 type="date"
                 name="datepic"

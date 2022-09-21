@@ -5,7 +5,7 @@ import MapLocation from '../mapa/map'
 
 const Footer = () => {
     return(
-        <div className="main-footer text-center">
+        <div id="footer" className="main-footer text-center">
             <div className="container">
                 <div className="mt-5 pt-5">
                 <MapLocation/>
@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="col">
                         <h4>Contacto</h4>
                         <ul className="list-unstyled">
-                            <li>+569 6347 3789</li>
+                            <li id="contacto">+569 6347 3789</li>
                         </ul>
                     </div>
                 {/*columna 2*/}
