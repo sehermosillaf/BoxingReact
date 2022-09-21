@@ -13,26 +13,26 @@ export const Instructores = () => {
    <div>
     &nbsp;
     <CardGroup className="mx-auto" border="dark" style={{ width: "80%" }}>
-      <CardComponent
+        <CardComponent
         titulo="Gonzalo"
         desc="Peleador de Kickboxing, con 5 años de experiencia en la escena nacional"
         img={instructor_1}
         linkText="Mas informacion"
-      />
+        />
 
-    <CardComponent
+        <CardComponent
         titulo="Olivia"
         desc="Entrenadora de boxeo, ha formado parte de equipos de alta competición, ideal para quienes comienzan a aventurarse en el mundo del boxeo"
         img={instructor_2}
         linkText="Mas informacion"
-      />
+        />
 
-    <CardComponent
+        <CardComponent
         titulo="Ricardo"
         desc="Entrenador Fitness, posee distintos planes de ejercicios con las rutinas óptimas para cada alumno"
         img={instructor_3}
         linkText="Mas informacion"
-      />
+        />
     </CardGroup>
     &nbsp;
     <CardGroup className="mx-auto" border="dark" style={{ width: "80%" }}>
