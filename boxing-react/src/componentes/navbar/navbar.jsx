@@ -3,12 +3,13 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import NavbarBrand from "react-bootstrap/esm/NavbarBrand";
 
 export const Navigation = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand to="/">React-Boxing</Navbar.Brand>
+        <NavbarBrand href="Inicio"> React-Boxing</NavbarBrand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -18,7 +19,7 @@ export const Navigation = () => {
             <NavLink className="nav-link" to="/Instructores">
               Instructores
             </NavLink>
-            <NavLink className="nav-link" to="/">
+            <NavLink className="nav-link">
               Disciplinas
             </NavLink>
             <NavDropdown
