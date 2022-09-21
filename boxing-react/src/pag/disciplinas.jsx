@@ -28,5 +28,6 @@ HIT (High Intensity Training) entrenamiento de alta intensidad clave para mejora
         linkText="Mas informacion"
       />
     </CardGroup>
+    
   );
 };
