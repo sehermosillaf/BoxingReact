@@ -1,13 +1,12 @@
 import Carousel from "react-bootstrap/Carousel";
-import carouselimg from '../../img/homewallpaper.jpg'
+import carouselimg from '../../img/homewallpaper_1.jpg';
 export const CarouselInicio = () => {
   return (
     <Carousel>
       <Carousel.Item>
-        <img
-          className="d-block w-100 h-20
-        "
+        <img 
           src={carouselimg}
+          className="d-block w-100 h-2"
           alt="Primer Slide"
         />
         <Carousel.Caption>
