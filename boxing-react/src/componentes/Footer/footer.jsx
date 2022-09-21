@@ -7,33 +7,28 @@ const Footer = () => {
     return(
         <div className="main-footer text-center">
             <div className="container">
+                <h4>Mapa</h4>
                 <MapLocation/>
                 <div className="row">
                 {/*columna 1*/}
                     <div className="col">
-                        <h4>Footer 1</h4>
+                        <h4>Contacto</h4>
                         <ul className="list-unstyled">
-                            <li>numero de telefono</li>
-                            <li>Ciudad</li>
-                            <li>direccion</li>
+                            <li>+569 6347 3789</li>
                         </ul>
                     </div>
                 {/*columna 2*/}
                 <div className="col">
-                    <h4>Footer 2</h4>
+                    <h4>Direccion</h4>
                     <ul className="list-unstyled">
-                        <li>Texto</li>
-                        <li>Texto2</li>
-                        <li>Texto3</li>
+                        <li>Yungay, Santiago</li>
                     </ul>
                 </div>
                 {/*columna 3*/}
                 <div className="col">
-                    <h4>Footer 3</h4>
+                    <h4>Redes Sociales</h4>
                     <ul className="list-unstyled">
-                        <li>Texto</li>
-                        <li>Texto2</li>
-                        <li>Texto3</li>
+                        <a href="https://www.instagram.com/">Instagram</a>
                     </ul>
                 </div>
                 </div>
