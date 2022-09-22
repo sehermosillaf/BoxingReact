@@ -25,7 +25,7 @@ export const Navigation = () => {
             <NavLink className="nav-link" to="/Instructores">
               Instructores
             </NavLink>
-            <NavLink className="nav-link"></NavLink>
+            <NavLink className="nav-link" to='/Planes'>Planes</NavLink>
             <NavDropdown
               to="/Horarios"
               title="Horarios"

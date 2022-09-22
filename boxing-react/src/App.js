@@ -6,6 +6,7 @@ import { Navigation } from "./componentes/navbar/navbar";
 import { FormularioLogin } from "./componentes/formuluario/form";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Instructores } from "./pag/instructores";
+import { Planes } from "./pag/planes";
 
 // Todo:Normalizar idiomas de directorios y ficheros
  
@@ -16,8 +17,9 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/Inicio" element={<Inicio />}></Route>
-        <Route path="/Instructores" element={<Instructores/>}></Route>
         <Route path="/Disciplinas" element={<Disciplinas />}></Route>
+        <Route path="/Instructores" element={<Instructores/>}></Route>
+        <Route path="/Planes" element={<Planes/>}></Route>
         <Route path="/Reserva'" element={<ReservaClases />}></Route>
         <Route path="/Login" element={<FormularioLogin />}></Route>
       </Routes>
