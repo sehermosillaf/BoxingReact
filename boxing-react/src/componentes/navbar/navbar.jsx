@@ -7,9 +7,15 @@ import NavbarBrand from "react-bootstrap/esm/NavbarBrand";
 
 export const Navigation = () => {
   return (
-    <Navbar className="sticky-top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar
+      className="sticky-top"
+      collapseOnSelect
+      expand="lg"
+      bg="dark"
+      variant="dark"
+    >
       <Container>
-        <NavbarBrand href="Inicio"> React-Boxing</NavbarBrand>
+        <NavbarBrand href="Inicio"> ReactBoxing</NavbarBrand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -19,9 +25,7 @@ export const Navigation = () => {
             <NavLink className="nav-link" to="/Instructores">
               Instructores
             </NavLink>
-            <NavLink className="nav-link">
-              
-            </NavLink>
+            <NavLink className="nav-link"></NavLink>
             <NavDropdown
               to="/Horarios"
               title="Horarios"
@@ -30,16 +34,15 @@ export const Navigation = () => {
               <NavDropdown.Item href="#">AM</NavDropdown.Item>
               <NavDropdown.Item href="#">PM</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavLink className="nav-link" to='/Reserva'>
-              <NavDropdown.Item>Reservar clases</NavDropdown.Item>
+              <NavLink className="nav-link" to="/Reserva">
+                <NavDropdown.Item>Reservar clases</NavDropdown.Item>
               </NavLink>
             </NavDropdown>
           </Nav>
           <Nav>
-            <NavLink className="nav-link" to='#'>
-              Contacto
+            <NavLink className="nav-link" to="/Login">
+              Iniciar sesión
             </NavLink>
-            <NavLink className="nav-link" to="/Login">Iniciar Sesion</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

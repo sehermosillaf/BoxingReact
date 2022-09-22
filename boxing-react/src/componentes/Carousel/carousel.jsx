@@ -1,5 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import carouselimg from '../../img/homewallpaper_1.jpg';
+
 export const CarouselInicio = () => {
   return (
     <Carousel>
@@ -10,8 +11,8 @@ export const CarouselInicio = () => {
           alt="Primer Slide"
         />
         <Carousel.Caption>
-          <h3>Boxeo</h3>
-          <p>React Boxing es un ambiente para entrenar </p>
+          <h3 className='pb-5'>Entrena con nosotros!</h3>
+          <iframe title='a' src="https://embed.lottiefiles.com/animation/109160"></iframe>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -23,7 +23,7 @@ export const Disciplinas = () => {
       <CardComponent
         titulo="Fitness Training"
         desc="Trabajo físico GAP (glúteos, abdomen y piernas)  focalizado.
-HIT (High Intensity Training) entrenamiento de alta intensidad clave para mejorar el estado físico y ponerse en forma."
+HIT, entrenamiento de alta intensidad clave para mejorar el estado físico y ponerse en forma."
         img={Fitness}
         linkText="Mas informacion"
       />

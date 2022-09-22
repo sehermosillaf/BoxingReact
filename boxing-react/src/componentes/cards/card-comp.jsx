@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 export const CardComponent = ({ titulo, desc, img, linkText}) => {
     return(
-    <Card >
+    <Card>
       <Card.Img variant="top" src={img} />
       <Card.Body className="card-body">
         <Card.Title>{titulo}</Card.Title>

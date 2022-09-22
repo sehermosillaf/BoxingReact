@@ -1,6 +1,8 @@
 import CardGroup from "react-bootstrap/CardGroup";
+
 import { CardComponent } from "../componentes/cards/card-comp";
 import Footer from "../componentes/Footer/footer";
+import {CheckRadioBtn} from "../componentes/formuluario/checkbox-radiobtn"
 import instructor_1 from "../img/instructor_1.jpg";
 import instructor_2 from "../img/instructor_2.jpg";
 import instructor_3 from "../img/instructor_3.jpg";
@@ -9,10 +11,13 @@ import instructor_5 from "../img/instructor_5.jpg";
 import instructor_6 from "../img/instructor_6.jpg";
 
 export const Instructores = () => {
+  
     return (
-   <div>
-    &nbsp;
-    <CardGroup className="mx-auto" border="dark" style={{ width: "80%" }}>
+   <div className="container-fluid">
+    <div className="mx-auto w-25 mt-5">
+    <CheckRadioBtn/>
+    </div>
+    <CardGroup className="mx-auto mt-5" border="dark" style={{ width: "80%" }}>
         <CardComponent
         titulo="Gonzalo"
         desc="Peleador de Kickboxing, con 5 años de experiencia en la escena nacional"

@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 
 
 export const FormularioLogin = () => {
+
     return (
     <Form className='mx-auto mt-5 w-25' >
       <Form.Group className="mb-3" controlId="formBasicEmail">
