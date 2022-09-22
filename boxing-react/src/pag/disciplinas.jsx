@@ -3,9 +3,11 @@ import { CardComponent } from "../componentes/cards/card-comp";
 import Boxeo from "../img/boxeo.jpg";
 import KickBoxing from "../img/kickboxing.jpg";
 import Fitness from "../img/fitness.jpg";
+import Footer from "../componentes/Footer/footer";
 
 export const Disciplinas = () => {
   return (
+    <>
     <CardGroup className="mx-auto mt-5" style={{ width: "80%" }}>
       <CardComponent
         titulo="Boxeo"
@@ -28,6 +30,9 @@ HIT, entrenamiento de alta intensidad clave para mejorar el estado físico y pon
         linkText="Mas informacion"
       />
     </CardGroup>
+
+    <Footer></Footer>
+    </>
     
   );
 };
