@@ -12,7 +12,7 @@ export const CarouselInicio = () => {
         />
         <Carousel.Caption>
           <h3 className='pb-5'>Entrena con nosotros!</h3>
-          <iframe title='a' src="https://embed.lottiefiles.com/animation/109160"></iframe>
+          <iframe title='a' src="https://embed.lottiefiles.com/animation/107748"></iframe>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
