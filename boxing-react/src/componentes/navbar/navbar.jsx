@@ -4,11 +4,12 @@ import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import NavbarBrand from "react-bootstrap/esm/NavbarBrand";
+import '../navbar/navbar.css'
 
 export const Navigation = () => {
   return (
     <Navbar
-      className="sticky-top"
+      className="sticky-top navbar"
       collapseOnSelect
       expand="lg"
       bg="dark"
