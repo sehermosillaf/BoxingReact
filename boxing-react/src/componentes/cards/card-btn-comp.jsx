@@ -1,9 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import Card from "react-bootstrap/Card";
 
+
 export const CardBtn = ({ titulo, desc, img, btnVariant,BtnText}) => {
     return(
-    <Card>
+    <Card className='card-style'>
       <Card.Img variant="top" src={img} />
       <Card.Body className="card-body">
         <Card.Title>{titulo}</Card.Title>
