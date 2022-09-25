@@ -1,5 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
-import carouselimg from '../../img/homewallpaper_1.jpg';
+import carouselimg from '../../img/homewallpaper_1.jpg'
 
 
 export const CarouselInicio = () => {
@@ -12,8 +12,7 @@ export const CarouselInicio = () => {
           alt="Primer Slide"
         />
         <Carousel.Caption>
-          <h1 className='pb-5'>¡Entrena con nosotros!</h1>
-          <iframe title='animacion fecha' src="https://embed.lottiefiles.com/animation/107748"></iframe>
+          <iframe className="pb-5" title='animacion fecha' src="https://embed.lottiefiles.com/animation/107748"></iframe>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

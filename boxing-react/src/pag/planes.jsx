@@ -25,7 +25,7 @@ export const Planes = () => {
       </Col>
 
       <CardBtn
-        titulo="Plan Full"
+        titulo="Plan full"
         desc="Válido por 12 meses"
         img={null}
         btnVariant={"primary"}
