@@ -12,7 +12,7 @@ export const Inicio = () => {
                 <div class="row text text-left">
                     <div class="col">
                         <img src="https://img.europapress.es/fotoweb/fotonoticia_20171026080141_420.jpg" alt="boxeo" width="400" height="300" 
-                        />
+                        style={{borderRadius: '10%'}}/>
                     </div>
                     <div class="col text text-left">
                         <CardGroup className=" mt-5 " >
@@ -37,13 +37,15 @@ export const Inicio = () => {
                         </CardGroup>
                     </div>
                     <div class="col">
-                        <iframe width="400" height="300" src="https://www.youtube.com/embed/Z8H2TfsoJrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="400" height="300" src="https://www.youtube.com/embed/Z8H2TfsoJrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        style={{borderRadius: '10%'}}></iframe>
                     </div>
                     <h1 className="mt-5 text text-center">Experiencias de usuarios</h1>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img width="400" height="300" src="https://media.revistagq.com/photos/5db2da9390f9460008ed9d84/4:3/w_4379,h_3284,c_limit/GettyImages-500671490.jpg" alt="boxeo" />
+                        <img width="400" height="300" src="https://media.revistagq.com/photos/5db2da9390f9460008ed9d84/4:3/w_4379,h_3284,c_limit/GettyImages-500671490.jpg" alt="boxeo" 
+                        style={{borderRadius: '50%'}}/>
                     </div>
                     <div class="col">
                         <CardGroup className=" mt-5">
@@ -68,7 +70,7 @@ export const Inicio = () => {
                         </CardGroup>
                     </div>
                     <div class="col">
-                        <img width="400" height="300" src="https://i.linio.com/p/d1ad754be3f0f7071d76aa7cbd93c081-product.jpg" alt="boxeo" />
+                        <img width="400" height="300" src="https://i.linio.com/p/d1ad754be3f0f7071d76aa7cbd93c081-product.jpg" alt="boxeo" style={{borderRadius: '50%'}}/>
                     </div>
                 </div>
             </div>

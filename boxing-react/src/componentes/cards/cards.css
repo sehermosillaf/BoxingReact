@@ -1,5 +1,8 @@
-
 .card-style > * {
     font-family: 'Poppins';
     font-size: 16px;
+}
+.card-style{
+    border-width: 3px !important;
+    border-color: #640D14 !important;
 }
