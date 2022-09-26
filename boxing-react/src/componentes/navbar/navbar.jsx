@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
+import BrandLogo from "../../img/logo/logov1.png";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import NavbarBrand from "react-bootstrap/esm/NavbarBrand";
 import '../navbar/navbar.css'
@@ -16,7 +17,12 @@ export const Navigation = () => {
       variant="dark"
     >
       <Container>
-        <NavbarBrand href="Inicio"> ReactBoxing</NavbarBrand>
+        <NavbarBrand href="Inicio">
+          <div className="">
+           <img src={BrandLogo} alt="logoReactBoxing"/>
+           React Boxing
+          </div>
+        </NavbarBrand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

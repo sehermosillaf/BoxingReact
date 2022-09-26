@@ -1,18 +1,22 @@
 import Carousel from "react-bootstrap/Carousel";
-import carouselimg from '../../img/homewallpaper_1.jpg'
+import carouselimg from "../../img/carousel/FondoCarousel2.svg";
 
-
+//Todo: Corregir imagen no abarca todo el ancho.
 export const CarouselInicio = () => {
   return (
-    <Carousel>
+    <Carousel className="w-100">
       <Carousel.Item>
-        <img 
+        <img
           src={carouselimg}
-          className="d-block w-100 h-2"
+          className="w-100"
           alt="Primer Slide"
         />
         <Carousel.Caption>
-          <iframe className="pb-5" title='animacion fecha' src="https://embed.lottiefiles.com/animation/107748"></iframe>
+          <iframe
+            className="pb-5"
+            title="animacion fecha"
+            src="https://embed.lottiefiles.com/animation/107748"
+          ></iframe>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

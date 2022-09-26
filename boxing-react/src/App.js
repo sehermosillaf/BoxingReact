@@ -7,8 +7,6 @@ import { FormularioLogin } from "./componentes/formuluario/form";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Instructores } from "./pag/instructores";
 import { Planes } from "./pag/planes";
-
-// Todo:Normalizar idiomas de directorios y ficheros
  
 function App() {
   return (
