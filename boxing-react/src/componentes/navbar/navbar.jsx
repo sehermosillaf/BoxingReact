@@ -13,7 +13,7 @@ export const Navigation = () => {
       className="sticky-top navbar"
       collapseOnSelect
       expand="lg"
-      bg="dark"
+      bg=""
       variant="dark"
     >
       <Container>

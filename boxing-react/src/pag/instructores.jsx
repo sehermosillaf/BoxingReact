@@ -25,21 +25,21 @@ export const Instructores = () => {
           titulo="Gonzalo"
           desc="Peleador de Kickboxing, con 5 años de experiencia en la escena nacional"
           img={instructor_1}
-          linkText="Mas informacion"
+          linkText="Mas información"
         />
 
         <CardComponent
           titulo="Olivia"
           desc="Entrenadora de boxeo, ha formado parte de equipos de alta competición, ideal para quienes comienzan a aventurarse en el mundo del boxeo"
           img={instructor_2}
-          linkText="Mas informacion"
+          linkText="Mas información"
         />
 
         <CardComponent
           titulo="Ricardo"
           desc="Entrenador Fitness, posee distintos planes de ejercicios con las rutinas óptimas para cada alumno"
           img={instructor_3}
-          linkText="Mas informacion"
+          linkText="Mas información"
         />
       </CardGroup>
       &nbsp;
@@ -48,21 +48,21 @@ export const Instructores = () => {
           titulo="Pedro"
           desc="Gimnasta Paralímpico que destaca en el levantamiento de pesas, ideal para apoyar en trabajos del tren superior"
           img={instructor_4}
-          linkText="Mas informacion"
+          linkText="Mas información"
         />
 
         <CardComponent
           titulo="Ignacio"
           desc="Campeón nacional de Kickboxing, cuenta con grandes títulos y 3 años de experiencia"
           img={instructor_5}
-          linkText="Mas informacion"
+          linkText="Mas información"
         />
 
         <CardComponent
           titulo="Constanza"
           desc="Deportista de alto nivel, posee 2 años de experiencia en el boxeo y ha competido en torneos nacionales"
           img={instructor_6}
-          linkText="Mas informacion"
+          linkText="Mas información"
         />
       </CardGroup>
       &nbsp;
