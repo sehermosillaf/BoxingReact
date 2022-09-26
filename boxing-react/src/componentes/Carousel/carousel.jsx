@@ -1,5 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
-import carouselimg from "../../img/carousel/FondoCarousel2.svg";
+import carouselimg from "../../img/carousel/FondoCarouselv3.jpg";
 
 //Todo: Corregir imagen no abarca todo el ancho.
 export const CarouselInicio = () => {
@@ -14,7 +14,7 @@ export const CarouselInicio = () => {
         <Carousel.Caption>
           <iframe
             className="pb-5"
-            title="animacion fecha"
+            title="animacion-fecha"
             src="https://embed.lottiefiles.com/animation/107748"
           ></iframe>
         </Carousel.Caption>

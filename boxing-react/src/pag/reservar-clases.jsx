@@ -1,14 +1,14 @@
+import Tab from "react-bootstrap/Tab";
+import Tabs from "react-bootstrap/Tabs";
 
-import React from 'react'
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
 
 export const ReservaClases = () => {
   return (
     <Tabs
       defaultActiveKey="profile"
-      id="uncontrolled-tab-example"
+      id="justify-tab-example"
       className="mb-3"
+      justify
     >
       <Tab eventKey="home" title="Home">
         
@@ -16,9 +16,12 @@ export const ReservaClases = () => {
       <Tab eventKey="profile" title="Profile">
         
       </Tab>
+      <Tab eventKey="longer-tab" title="Loooonger Tab">
+        
+      </Tab>
       <Tab eventKey="contact" title="Contact" disabled>
         
       </Tab>
     </Tabs>
-  )
-}
+  );
+};

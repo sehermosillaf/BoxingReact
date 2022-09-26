@@ -33,6 +33,9 @@ export const Navigation = () => {
               Instructores
             </NavLink>
             <NavLink className="nav-link" to='/Planes'>Planes</NavLink>
+            <NavLink className="nav-link" to="/Reserva">
+                <NavDropdown.Item>Reservar clases</NavDropdown.Item>
+              </NavLink>
             <NavDropdown
               to="/Horarios"
               title="Horarios"
@@ -40,15 +43,16 @@ export const Navigation = () => {
             >
               <NavDropdown.Item href="#">AM</NavDropdown.Item>
               <NavDropdown.Item href="#">PM</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavLink className="nav-link" to="/Reserva">
-                <NavDropdown.Item>Reservar clases</NavDropdown.Item>
-              </NavLink>
+              <NavDropdown.Item href="#">Todos</NavDropdown.Item>
+             
             </NavDropdown>
           </Nav>
           <Nav>
             <NavLink className="nav-link" to="/Login">
               Iniciar sesión
+            </NavLink>
+            <NavLink className="nav-link" to="/Registrar">
+              Crea una cuenta
             </NavLink>
           </Nav>
         </Navbar.Collapse>

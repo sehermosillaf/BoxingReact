@@ -16,7 +16,7 @@ export const FormularioLogin = () => {
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Contraseña</Form.Label>
-        <Form.Control type="password" placeholder="Contraseña" />
+        <Form.Control type="password" placeholder="Ingrese una contraseña" />
       </Form.Group>
       <Button variant="primary" type="submit">
         Acceder
