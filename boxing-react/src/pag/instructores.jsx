@@ -23,7 +23,7 @@ export const Instructores = () => {
       >
         <CardComponent
           titulo="Gonzalo"
-          desc="Peleador de Kickboxing, con 5 años de experiencia en la escena nacional"
+          desc="Peleador de Kickboxing, con 5 años de experiencia en la escena nacional, con su amplia experiencia es un buen entrenador para boxeadores amateurs"
           img={instructor_1}
           linkText="Mas información"
         />
@@ -37,7 +37,7 @@ export const Instructores = () => {
 
         <CardComponent
           titulo="Ricardo"
-          desc="Entrenador Fitness, posee distintos planes de ejercicios con las rutinas óptimas para cada alumno"
+          desc="Entrenador Fitness, posee distintos planes de ejercicios con las rutinas óptimas para cada alumno, enfocandose en mejorar sus habilidades"
           img={instructor_3}
           linkText="Mas información"
         />
@@ -53,14 +53,14 @@ export const Instructores = () => {
 
         <CardComponent
           titulo="Ignacio"
-          desc="Campeón nacional de Kickboxing, cuenta con grandes títulos y 3 años de experiencia"
+          desc="Campeón nacional de Kickboxing, cuenta con grandes títulos y 3 años de experiencia, busca enseñar el KickBoxing para las nuevas generaciones"
           img={instructor_5}
           linkText="Mas información"
         />
 
         <CardComponent
           titulo="Constanza"
-          desc="Deportista de alto nivel, posee 2 años de experiencia en el boxeo y ha competido en torneos nacionales"
+          desc="Deportista de alto nivel, posee 2 años de experiencia en el boxeo y ha competido en torneos nacionales con buenos resultados"
           img={instructor_6}
           linkText="Mas información"
         />

@@ -8,7 +8,7 @@ export const CardComponent = ({ titulo, desc, img, linkText}) => {
       <Card.Body className="card-body">
         <Card.Title>{titulo}</Card.Title>
         <Card.Text>{desc}</Card.Text>
-        <Card.Link href="#">{linkText}</Card.Link>
+        <Card.Link href="#" >{linkText}</Card.Link>
       </Card.Body>
     </Card>
     );
